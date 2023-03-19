@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Signals/connection.h
+iostream
+-
+functional
+-
+memory
+-
+list
+-
+mutex
+-
+shared_mutex
+-
+
+/home/tony/Desktop/CPP/Signals/main.cpp
+iostream
+-
+connection.h
+-
+
